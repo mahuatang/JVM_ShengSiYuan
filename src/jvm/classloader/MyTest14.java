@@ -8,7 +8,7 @@ public class MyTest14 {
     public static void main(String[] args) throws IOException {
         ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
         System.out.println(classLoader);
-        String resourceName = "com/shengsiyuan/jvm/classloader/MyTest13.class";
+        String resourceName = "com/shengsiyuan/jvm/re/MyTest13.class";
 
         Enumeration<URL> urls = classLoader.getResources(resourceName);
 

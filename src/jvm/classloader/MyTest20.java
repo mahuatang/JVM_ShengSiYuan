@@ -11,8 +11,8 @@ public class MyTest20 {
         MyTest16 loader1 = new MyTest16("loader1");
         MyTest16 loader2 = new MyTest16("loader2");
 
-        Class<?> clazz1 = loader1.loadClass("com.shengsiyuan.jvm.classloader.MyPerson");
-        Class<?> clazz2 = loader2.loadClass("com.shengsiyuan.jvm.classloader.MyPerson");
+        Class<?> clazz1 = loader1.loadClass("com.shengsiyuan.jvm.re.MyPerson");
+        Class<?> clazz2 = loader2.loadClass("com.shengsiyuan.jvm.re.MyPerson");
 
         System.out.println("****************");
 

@@ -10,12 +10,12 @@ class CL {
 public class MyTest12 {
     public static void main(String[] args) throws Exception{
         ClassLoader loader = ClassLoader.getSystemClassLoader();
-        Class<?> clazz = loader.loadClass("com.shengsiyuan.jvm.classloader.CL");
+        Class<?> clazz = loader.loadClass("com.shengsiyuan.jvm.re.CL");
         System.out.println(clazz);
 
         System.out.println("-----------");
 
-        clazz= Class.forName("com.shengsiyuan.jvm.classloader.CL");
+        clazz= Class.forName("com.shengsiyuan.jvm.re.CL");
 
         System.out.println(clazz);
     }

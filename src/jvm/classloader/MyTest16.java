@@ -89,9 +89,9 @@ public class MyTest16 extends ClassLoader{
 
     public static void main(String[] args) throws Exception{
         MyTest16 loader1 = new MyTest16("loader1");
-        loader1.setPath("/Users/yurui/Desktop/项目代码/java8/JVMLecture/out/production/JVMLecture/com/shengsiyuan/jvm/classloader");
+        loader1.setPath("/Users/yurui/Desktop/项目代码/java8/JVMLecture/out/production/JVMLecture/com/shengsiyuan/jvm/re");
 
-        Class<?> clazz = loader1.loadClass("com.shengsiyuan.jvm.classloader.MyTest1");
+        Class<?> clazz = loader1.loadClass("com.shengsiyuan.jvm.re.MyTest1");
         System.out.println("class: " + clazz.hashCode());
         Object object = clazz.newInstance();
         System.out.println(object);
@@ -112,9 +112,9 @@ public class MyTest16 extends ClassLoader{
          */
 
         /*loader1 = new MyTest16("loader1");
-        loader1.setPath("/Users/yurui/Desktop/项目代码/java8/JVMLecture/out/production/JVMLecture/com/shengsiyuan/jvm/classloader");
+        loader1.setPath("/Users/yurui/Desktop/项目代码/java8/JVMLecture/out/production/JVMLecture/com/shengsiyuan/jvm/re");
 
-        clazz = loader1.loadClass("com.shengsiyuan.jvm.classloader.MyTest1");
+        clazz = loader1.loadClass("com.shengsiyuan.jvm.re.MyTest1");
         System.out.println("class: " + clazz.hashCode());
         object = clazz.newInstance();
         System.out.println(object);
@@ -122,9 +122,9 @@ public class MyTest16 extends ClassLoader{
         System.out.println();*/
 
        /* MyTest16 loader2 = new MyTest16("loader2");
-        loader2.setPath("/Users/yurui/Desktop/项目代码/java8/JVMLecture/out/production/JVMLecture/com/shengsiyuan/jvm/classloader");
+        loader2.setPath("/Users/yurui/Desktop/项目代码/java8/JVMLecture/out/production/JVMLecture/com/shengsiyuan/jvm/re");
 
-        Class<?> clazz2 = loader2.loadClass("com.shengsiyuan.jvm.classloader.MyTest1");
+        Class<?> clazz2 = loader2.loadClass("com.shengsiyuan.jvm.re.MyTest1");
         System.out.println("class: " + clazz2.hashCode());
         Object object2 = clazz2.newInstance();
         System.out.println(object2);

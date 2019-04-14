@@ -5,7 +5,7 @@ public class MyTest7 {
         Class<?> clazz = Class.forName("java.lang.String");
         System.out.println(clazz.getClassLoader());
 
-        Class<?> clazz2 = Class.forName("com.shengsiyuan.jvm.classloader.cc");
+        Class<?> clazz2 = Class.forName("com.shengsiyuan.jvm.re.cc");
         System.out.println(clazz2.getClassLoader());
     }
 }

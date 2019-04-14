@@ -29,8 +29,8 @@ public class MyTest21 {
         loader1.setPath("/Users/zhanglong/Desktop/");
         loader2.setPath("/Users/zhanglong/Desktop/");
 
-        Class<?> clazz1 = loader1.loadClass("com.shengsiyuan.jvm.classloader.MyPerson");
-        Class<?> clazz2 = loader2.loadClass("com.shengsiyuan.jvm.classloader.MyPerson");
+        Class<?> clazz1 = loader1.loadClass("com.shengsiyuan.jvm.re.MyPerson");
+        Class<?> clazz2 = loader2.loadClass("com.shengsiyuan.jvm.re.MyPerson");
 
         System.out.println(clazz1 == clazz2);
 
